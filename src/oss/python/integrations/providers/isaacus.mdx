@@ -49,7 +49,7 @@ client = IsaacusEmbeddings(
 )
 
 # Embed a dummy document.
-document_embedding = client.embed_documents(texts=["These are GitHub's billing polices."])[0]
+document_embedding = client.embed_documents(texts=["These are GitHub's billing policies."])[0]
 
 # Embed our search queries.
 relevant_query_embedding = client.embed_query(text="What are GitHub's billing policies?")
